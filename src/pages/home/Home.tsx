@@ -1,6 +1,6 @@
 import './home.scss'
 
-import homeImage from '../../assets/home-image.png'
+import homeImage from '../../assets/home-image.webp'
 import QuoteForm from '@components/home/QuoteForm'
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
 
             <div className="main__container">
                 <div className="main__container__image">
-                    <img src={homeImage} alt="home image" />
+                    <img src={homeImage} alt="home image" loading='lazy' />
                 </div>
 
                 <div className="main__container__description">

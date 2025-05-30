@@ -1,7 +1,7 @@
 import type { Plan } from '@declarations/Plans'
 
-import homeIcon from '@assets/plans/home.png'
-import hospitalIcon from '@assets/plans/hospital.png'
+import homeIcon from '@assets/plans/home.webp'
+import hospitalIcon from '@assets/plans/hospital.webp'
 import usePlanStore from 'src/shared/store/usePlanStore'
 import { useNavigate } from 'react-router-dom'
 import { Paths } from 'src/router/routes'

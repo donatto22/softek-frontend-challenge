@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <nav className='nav'>
             <div className="nav__container">
-                <img src="./logo.png" alt="Rimac logo" loading='lazy' />
+                <img src="./logo.webp" alt="Rimac logo" loading='lazy' />
 
                 <div className="nav__container_phone">
                     <p>!Compra por este medio!</p>
