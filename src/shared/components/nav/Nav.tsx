@@ -1,5 +1,6 @@
 import './nav.scss'
 
+import phoneIcon from '@assets/icons/phone.png'
 
 const Nav = () => {
     return (
@@ -10,7 +11,7 @@ const Nav = () => {
                 <div className="nav__container_phone">
                     <p>!Compra por este medio!</p>
                     <div className="nav__container_phone_number">
-                        <img src='./src/assets/icons/phone.png' alt="phone icon" />
+                        <img src={phoneIcon} alt="phone icon" />
                         <p>(01) 411 6001</p>
                     </div>
                 </div>
