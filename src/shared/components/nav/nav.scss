@@ -1,0 +1,34 @@
+@import "../../../globals.scss";
+
+.nav__container {
+    max-width: 1200px;
+    padding: 1em 2em;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_phone, &_phone_number {
+        display: flex;
+        align-items: center;
+    }
+    
+    &_phone {
+        gap: 1em;
+        font-size: 14px;
+    }
+
+    &_phone_number {
+        gap: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media (width < 460px) {
+    .nav {
+        &__container_phone p:first-child {
+            display: none;
+        }
+    }
+}

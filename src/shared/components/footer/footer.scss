@@ -1,0 +1,56 @@
+@import "../../../globals.scss";
+
+.footer {
+    background-color: $gray100;
+    color: $gray10;
+    font-size: 14px;
+    font-weight: 400;
+
+    &__container {
+        padding: 1em 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (width > 400px) {
+    .footer {
+        &__container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        &__logo {
+            content: url('./white-logo.png');
+        }
+
+        hr {
+            display: none;
+        }
+    }
+}
+
+@media (width <= 400px) {
+    .footer {
+        &__container {
+            flex-direction: column;
+            gap: 1em;
+            padding: 2em;
+        }
+
+        &__logo {
+            width: 140px;
+            content: url('./white-logo-alt.png');
+        }
+
+        hr {
+            width: 100%;
+            border-color: $gray80;
+        }
+
+        p {
+            letter-spacing: 0.1;
+        }
+    }
+}

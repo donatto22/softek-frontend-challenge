@@ -1,0 +1,80 @@
+@import '../../../globals.scss';
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.main__container__form__inputs {
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    input, select {
+        padding: 1em 0;
+        text-indent: 1em;
+        border: 0;
+        background-color: transparent;
+    }
+
+    #identificationDocument {
+        width: 100%;
+        outline: 1px solid $gray60;
+        display: flex;
+        border-radius: 8px;
+
+        #documentInput {
+            width: 140px;
+        }
+
+        input {
+            width: 100%;
+        }
+    }
+    
+    #phoneNumberDiv input {
+        width: 100%;
+        outline: 1px solid $gray60;
+        border-radius: 8px;
+    }
+}
+
+.main__container__form {
+    &__policy {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        color: #0A051E;
+
+        &__input {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            accent-color: black;
+            line-height: 24px;
+        }
+
+        a {
+            color: $gray100;
+            font-weight: 600;
+        }
+    }
+
+    &__button {
+        font-size: 20px;
+        letter-spacing: 0.4px;
+        font-weight: 700;
+        padding: 20px 40px;
+        background-color: $gray100;
+        color: white;
+        font-weight: 700;
+        border-radius: 40px;
+        width: fit-content;
+    }
+}

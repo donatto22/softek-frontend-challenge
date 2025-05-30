@@ -1,0 +1,36 @@
+/* BR Sonoma */
+@import url('https://fonts.cdnfonts.com/css/br-sonoma');
+
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* mini reset */ 
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+/* Colors */
+$neutrals: #FAFBFF;
+$neutral200: #EDEFFC;
+$neutral600: #7981B2;
+$neutral700: #141938;
+
+$blue-berry: #4F4FFF;
+$red-rimac: #FF1C44;
+$green-aqua: #7DF0BA;
+
+$gray100: #03050F;
+$gray80: #2B304E;
+$gray60: #5E6488;
+$gray10: #F8F9FF;
+
+/* Blur colors */
+$violet: #C333FF;
+$aqua: #00F4E2;
+
+body {
+    background-color: $gray10;
+    overflow-x: hidden;
+}
